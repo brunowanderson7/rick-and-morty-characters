@@ -23,4 +23,4 @@ https://rickandmortcharacteres.netlify.app/
 ![Imagem de exemplo](https://github.com/brunowanderson7/rick-and-morty-characters/blob/main/assets/ex03.png)
 
 ## Autor
-https://github.com/brunowanderson7
+[@brunowanderson7](https://www.github.com/brunowanderson7)
