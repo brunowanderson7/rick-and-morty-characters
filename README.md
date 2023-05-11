@@ -16,11 +16,11 @@ https://rickandmortcharacteres.netlify.app/
  - 
 ## Como utilizar
 - Utilize a barra de pesquisa para buscar personagens pelo nome do personagem;
-![Imagem de exemplo](https://raw.githubusercontent.com/seu-usuario/nome-do-repositorio/branch/nome-do-arquivo-da-imagem.png)
+![Imagem de exemplo](https://github.com/brunowanderson7/rick-and-morty-characters/blob/main/assets/ex01.png)
 - Clique em um personagem para ver suas informações detalhadas;
-![Imagem de exemplo](https://raw.githubusercontent.com/seu-usuario/nome-do-repositorio/branch/nome-do-arquivo-da-imagem.png)
+![Imagem de exemplo](https://github.com/brunowanderson7/rick-and-morty-characters/blob/main/assets/ex02.png)
 - Lista de personagens.
-![Imagem de exemplo](https://raw.githubusercontent.com/seu-usuario/nome-do-repositorio/branch/nome-do-arquivo-da-imagem.png)
+![Imagem de exemplo](https://github.com/brunowanderson7/rick-and-morty-characters/blob/main/assets/ex03.png)
 
 ## Autor
 https://github.com/brunowanderson7
