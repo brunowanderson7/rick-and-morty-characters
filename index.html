@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="./assets/icon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Rick & Morty - Personagens</title>
+    <script src="https://kit.fontawesome.com/f721cccd90.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container header-position">
+        
+        <img
+          src="./assets/header-description.png"
+          alt="Galeria rick and morty"
+        />
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <!-- NAV BAR-->
+        <nav>
+          <ul class="navBar">
+            <li>
+              <button id="btnPrev" class="btnNav">ANTERIOR</button>
+            </li>
+            <li>
+              <button id="btnNext" class="btnNav">PROXIMO</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- CARDS LIST -->
+        <ul id="cardList">
+          <!-- LIST ITEM  -->
+          <li class="card flip">
+            <!-- FRONT CARD  -->
+            <div class="face front">
+              <div class="titleCard"></div>
+              <ul class="cardData">
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+
+            <!-- BACK CARD  -->
+            <div class="face back">
+              <div class="titleCard"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- PESQUISA -->
+      <div class="container-search">
+
+        <!-- NAV PESQUISA-->
+        <nav>
+          <ul class="navBar">
+            <li class="search">
+              <input type="text" id="inputName" name="nome" placeholder="Nome do personagem: ">
+              <button id="btnInputSearch" class="btnNav">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </li>
+          </ul>
+        </nav>
+        
+        <!-- CARDS LIST -->
+        <ul id="cardSearch">
+          <!-- LIST ITEM  -->
+          <li class="card flip">
+            <!-- FRONT CARD  -->
+            <div class="face front">
+              <div class="titleCard"></div>
+              <ul class="cardData">
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+
+            <!-- BACK CARD  -->
+            <div class="face back">
+              <div class="titleCard"></div>
+            </div>
+          </li>
+        </ul>
+
+        <!-- NAV BAR-->
+        <nav>
+          <ul class="navBar">
+            <li>
+              <button id="btnPrevSearch" class="btnNav">ANTERIOR</button>
+            </li>
+            <li>
+              <button id="btnNextSearch" class="btnNav">PROXIMO</button>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+    </main>
+    <footer>
+      <div class="container footer-position">
+
+        <a
+          class="link-footer"
+          href="https://github.com/brunowanderson7"
+          target="_blank"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          class="link-footer"
+          href="https://www.instagram.com/bruno.wand7/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

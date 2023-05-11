@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+:root {
+  --color-primary: #00f01c;
+  --color-grey-1: #707070;
+  --color-grey-2: #ffffff;
+  --color-grey-3: #1e1e1e;
+  --color-title-1: #000000;
+  --text-color-1: #c7c7c7cc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+html {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../assets/padrao-bg.png");
+
+}
