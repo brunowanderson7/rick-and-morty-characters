@@ -43,8 +43,8 @@ async function renderizaCards(linkApi) {
     const imagem = document.createElement('img')
 
     li.classList.add('card', 'listCard')
-    divFrente.classList.add("face");
-    divFrente.classList.add("front");
+    divFrente.classList.add("face")
+    divFrente.classList.add("front")
 
     divNomeFrente.classList.add("titleCard")
     divNomeFrente.innerText = elemento.name
