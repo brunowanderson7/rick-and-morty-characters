@@ -1,4 +1,4 @@
-## Projeto Rick and Morty API
+## Rick and Morty - Personagens
 Este é um projeto simples de um site que utiliza HTML, CSS e JS para desenvolver uma interface que se comunica com a API de Rick and Morty para apresentar a base de personagens da série animada.
 
 https://rickandmortcharacteres.netlify.app/
